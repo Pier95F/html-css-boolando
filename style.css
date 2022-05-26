@@ -1,5 +1,4 @@
 /* reset */
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +6,33 @@
 }
 
 /* commons */
+
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.redprice{
+    color: red;
+    font-size: small;
+    font: bold;
+    text-decoration: none;
+}
+
+.marca{
+    padding-top: 5px;
+font-size: small;
+}
+
+h3{
+    font-size: small;
+    font: bold;
+}
+
+.prezzo{
+    font-size: small;
+    text-decoration: line-through;
+    color: black;
+}
 
 /* layout */
 .container {
@@ -22,7 +48,7 @@
 
 .col{
     max-width: calc(100%/3);
-    padding: 30px 5px;
+    padding: 10px 5px;
 }
 
 .product{
@@ -67,8 +93,8 @@
     color: white;
     width: 70px;
     height: 20px;
-    padding: 2px;
-    font-size: smaller;
+    padding: 5px;
+    font-size: 10px;
     font: bold;
     text-align: center;
 }
