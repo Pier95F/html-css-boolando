@@ -22,9 +22,57 @@
 
 .col{
     max-width: calc(100%/3);
-    padding: 5px;
+    padding: 30px 5px;
+}
+
+.product{
+    position: relative;
 }
 
 .product img{
     width: 100%;
+}
+
+.hearts{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    background-color: #eb0037;
+    color: white;
+    font-size: 12px;
+    font: bold;
+    text-align: center;
+    width: 35px;
+    height: 20px;
+    padding: 2px;
+}
+
+.sostenibilità {
+    position: absolute;
+    left: 40px;
+    bottom: 20px;
+    background-color: #00875a;
+    color: white;
+    width: 70px;
+    height: 20px;
+    padding: 2px;
+    font-size: smaller;
+    font: bold;
+    text-align: center;
+}
+
+.img6 {
+    left: 0px;
 }
